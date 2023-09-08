@@ -34,14 +34,14 @@ body{
 }
 
 .progress-container::before{
-    content:' ';
+    content:'';
     background-color: var(--line-border-empty);
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translate(-50%);
+    transform: translateY(-50%);
     height: 4px;
-    width: 100%;
+    width:100%;
     z-index: -1;
 
 }
@@ -51,7 +51,7 @@ body{
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translate(-50%);
+    transform: translateY(-50%);
     height: 4px;
     width:0%;
     z-index: -1;
@@ -59,8 +59,10 @@ body{
 
 }
 
+
+
 .circle{
-    background-color: white;
+    background-color:#fff;
     color: #999;
     border-radius: 50%;
     height: 30px;
@@ -99,7 +101,7 @@ body{
 
 .btn:disabled{
     background-color: var(--line-border-empty);
-    cursor:not-allowed;
+    cursor: not-allowed;
 }
 
 
