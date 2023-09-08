@@ -1,6 +1,8 @@
 const progress = document.getElementById('progress')
 const prev = document.getElementById('prev')
 const next = document.getElementById('next')
+
+//.circles to get all the elements using the querySelectorAll
 const circles = document.querySelectorAll('.circle')
 
 
